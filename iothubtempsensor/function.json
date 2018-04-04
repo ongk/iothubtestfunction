@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "name": "IoTButtonMessages",
+      "direction": "in",
+      "type": "eventHubTrigger",
+      "path": "domicoiottesthub",
+      "connection": "AzureIoTHubEventHubConnectionString",
+      "cardinality": "many",
+      "consumerGroup": "$Default"
+    }
+  ],
+  "disabled": false
+}
